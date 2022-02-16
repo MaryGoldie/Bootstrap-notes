@@ -1,0 +1,29 @@
+#icon {
+  color:white;
+  font-size: 23px;
+}
+
+.blog {
+  text-align: center;
+}
+
+.media {
+  margin-top: 40px;
+}
+
+#media {
+  width: 120px;
+  height: 120px;
+  clip-path: circle();
+}
+
+.inner {
+	overflow: hidden;
+}
+.inner img {
+	transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
